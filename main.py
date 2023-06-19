@@ -71,6 +71,10 @@ def move(game_state: typing.Dict) -> typing.Dict:
 
 
 
+
+
+
+
     elif my_neck["x"] > my_head["x"]:  # Neck is right of head, don't move right
         is_move_safe["right"] = False
 
